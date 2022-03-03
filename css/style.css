@@ -1,0 +1,215 @@
+/*Resetar o CSS daqui*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, and, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, select {
+	background:transparent;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	line-height:1;
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+
+del {
+	text-decoration:line-through;
+}
+hr {
+	background:transparent;
+	border:0;
+	clear:both;
+	color:transparent;
+	height:1px;
+	margin:0;
+	padding:0;
+}
+mark {
+	background-color:#ffffb3;
+	font-style:italic
+}
+input, select {
+	vertical-align:middle;
+}
+ins {
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+ol, ul {
+	list-style:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+/*Até aqui :)*/
+
+body{
+    font-family: 'Oswald';
+    background-color: #15161B;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #d9e9e3;
+}
+@media screen and (max-width: 600px) {
+    header{
+      font-size: 5vw;
+    }
+  }
+
+.logo h2{
+    font-weight: bold;
+    padding-top: 0.1rem;
+    padding-bottom: 1rem;
+    color: #095c53;
+}
+
+.logo span{
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+    color: #0c8156;
+}
+
+.logoimg{
+    padding-top: 0.1em;
+    width: 6.5rem;
+}
+
+.sessao_A{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #0a4b37;
+    margin-top: 8rem;
+}
+
+.sessao_B{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #0a4b37;
+    margin-top: 3rem;
+}
+
+.sessao_C{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #0a4b37;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    padding-top: 1rem;
+}
+
+h3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #97f5d6;
+    font-size: 1rem;
+}
+
+p{
+    margin: 2rem;
+    color: #ffffff;
+    line-height: 3rem;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+
+h1{
+    color: #ffffff;
+    line-height: 3rem;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.locacaoimg img{
+    border-radius: 25px;
+    width: 20rem;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.documentacaoimg img{
+    border-radius: 25px;
+    width: 20rem;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .sessao_A{
+        display: inline-block;
+        width: 100%;
+        background-color: #0a4b37;
+        margin-top: 8rem;
+    }
+
+    .sessao_B{
+        display: inline-block;
+        width: 100%;
+        background-color: #0a4b37;
+        margin-top: 2rem;
+    }
+
+    h3{
+        color: #97f5d6;
+        font-size: 4.5vw;
+    }
+
+    h1{
+        color: #ffffff;
+        line-height: 2rem;
+        font-size: 5vw;
+    }
+
+    .locacaoimg img{
+        margin-left: 5%;
+        margin-right: 0%;
+        border-radius: 25px;
+        width: 80vw;
+        height: auto;
+    }
+
+    .documentacaoimg img{
+        margin-left: 5%;
+        margin-right: 0%;
+        border-radius: 25px;
+        width: 80vw;
+        height: auto;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12pt;
+    background-color: #d9e9e3;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
