@@ -116,7 +116,7 @@ header{
     width: 100%;
     background-color: #0a4b37;
     margin-top: 3rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     padding-top: 1rem;
 }
 
@@ -212,4 +212,8 @@ footer{
     background-color: #d9e9e3;
     padding-top: 5px;
     padding-bottom: 10px;
+}
+
+.lista img{
+    width: 100%;
 }
