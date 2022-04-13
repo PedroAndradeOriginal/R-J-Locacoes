@@ -73,7 +73,7 @@ header nav {
 
 .nav-link {
     position: relative;
-    margin-right: 40px;
+    margin-right: 10px;
     text-decoration: none;
     font-size: 2rem;
     font-weight: 400;
@@ -563,7 +563,7 @@ footer a:hover {
         height: 100vh;
         padding-top: 50px;
         position: absolute;
-        top: 75px;
+        top: 70px;
         left: 0;
         overflow: hidden;
         text-align: center;
